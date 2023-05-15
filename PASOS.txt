@@ -1,0 +1,8 @@
+1. Instalar git
+2. Crear carpeta y hacerla repositorio local (con git clone <link HTML github repo>)
+3. Hacer git branch -r para ver ramas remotas
+4. Hacer git checkout <rama remota> para pararnos en una de ellas en el local (previo git pull)
+5. Abrir el eclipse con el proyecto y en c/cambio hacer git checkout <ramacambio> y git commit -m "comentario"
+6. Luego de hacer el commit, hacer git push para efectuar los cambios en el repo remoto.
+
+NO OLVIDARSE LOGGUEARSE EN GITHUB desde el git local.
