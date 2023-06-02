@@ -1,9 +1,5 @@
 package suscripcion;
 
-<<<<<<< HEAD
-public class Persona {
-
-=======
 public abstract class Persona {
 	private String nombre;
 	private String apellido;
@@ -53,6 +49,5 @@ public abstract class Persona {
 	
 	// Metodo abstracto
 	public abstract String getUsuario();
-	
->>>>>>> devSuscripcion
+
 }
