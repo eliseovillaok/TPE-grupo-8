@@ -26,8 +26,4 @@ public class Cliente extends Persona{
 	}
 }
 
-// sacarpasaje. suscribirse. desuscribirse.
-// sacarpasaje usa clase pasaje.
-// bool sacarpasaje(string origen ,string destino)
-// bool suscribirse(suscripcion)
-//suscripcion.addsuscriptor
+
