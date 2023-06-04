@@ -4,16 +4,15 @@ import java.util.ArrayList;
 
 public class Plataforma {
 	private ArrayList<Cliente> clientes;
-	private Administrador admin;
+	// private Administrador admin;
 	
 	private ArrayList<Suscripcion> serviciosSuscripcion;
 	
 	private ArrayList<String> localidades; 
 
-	public Plataforma(Administrador admin) {
+	public Plataforma() {
 		super();
-		this.admin = admin;
-		this.clientes = new ArrayList<Clientes>();
+		this.clientes = new ArrayList<Cliente>();
 		this.serviciosSuscripcion = new ArrayList<Suscripcion>();
 		this.localidades = new ArrayList<String>();
 	}
@@ -24,7 +23,7 @@ public class Plataforma {
 	
 	public Cliente logueoCliente(String usuario, String password) {
 		for(Cliente c : this.clientes) {
-			if((c.getContrasenia().equals(password)) && (c.getEmail().equals(usuario))) {
+			if((c.getContrasenia().equals(password)) && (c.getUsuario().equals(usuario))) {
 				return c;
 			}
 		}
@@ -33,7 +32,7 @@ public class Plataforma {
 	
 	public Suscripcion getSuscripcion(String origen, String destino) {
 		for(Suscripcion s: this.serviciosSuscripcion) {
-			if((s.getSuscripcion().equals(origen)&&(s.getDestino().equals(destino)))) {
+			if((s.getOrigen().equals(origen)&&(s.getDestino().equals(destino)))) {
 				return s;
 			}
 		}
