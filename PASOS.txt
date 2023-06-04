@@ -5,4 +5,4 @@
 5. Abrir el eclipse con el proyecto y en c/cambio hacer git checkout <ramacambio> y git commit -m "comentario"
 6. Luego de hacer el commit, hacer git push para efectuar los cambios en el repo remoto.
 
-NO OLVIDARSE LOGGUEARSE EN GITHUB desde el git local.
+NO OLVIDARSE LOGGUEARSE EN GITHUB desde el git local. (haciendo git push)
