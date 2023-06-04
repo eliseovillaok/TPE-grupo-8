@@ -12,10 +12,22 @@ public class Cliente extends Persona{
 	public String getUsuario() {
 		return email;
 	}
+	
+	public void suscribirse(Suscripcion s) {
+		s.addSuscriptor(this.getUsuario());
+	}
+	
+	public void desuscribirse(Suscripcion s) {
+		s.removeSuscriptor(this.getUsuario());
+	}
+	
+	public void sacarPasaje(String origen, String destino) {
+		System.out.println("Pasaje sacado con exito de " + origen + " hacia " + destino);
+	}
 }
 
 // sacarpasaje. suscribirse. desuscribirse.
 // sacarpasaje usa clase pasaje.
 // bool sacarpasaje(string origen ,string destino)
 // bool suscribirse(suscripcion)
-	//suscripcion.addsuscriptor
+//suscripcion.addsuscriptor

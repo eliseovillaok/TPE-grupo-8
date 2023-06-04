@@ -4,15 +4,15 @@ import java.util.ArrayList;
 
 public class Suscripcion {
 
-	String origen;
-	String destino;
-	ArrayList<String> suscriptores;
+	private String origen;
+	private String destino;
+	private ArrayList<String> suscriptores;
 	
 	
-	public Suscripcion(String origen, String destino, ArrayList<String> suscriptores) {
+	public Suscripcion(String origen, String destino) {
 		this.origen = origen;
 		this.destino = destino;
-		this.suscriptores = suscriptores;
+		this.suscriptores = new ArrayList<String>();
 	}
 
 	
@@ -37,13 +37,9 @@ public class Suscripcion {
 
 
 	public ArrayList<String> getSuscriptores() {
-		return suscriptores;
+		return (new ArrayList<String>(suscriptores));
 	}
 
-
-	public void setSuscriptores(ArrayList<String> suscriptores) {
-		this.suscriptores = suscriptores;
-	}
 	
 	public void addSuscriptor (String e) {
 		if (!suscriptores.contains(e))
