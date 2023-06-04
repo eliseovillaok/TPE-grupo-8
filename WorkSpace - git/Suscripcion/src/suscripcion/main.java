@@ -17,5 +17,6 @@ public class main {
 		// Agregamos un suscriptor y notificamos
 		s1.addSuscriptor(c1.getUsuario());
 		s1.notificar();
+	}
 }
  
