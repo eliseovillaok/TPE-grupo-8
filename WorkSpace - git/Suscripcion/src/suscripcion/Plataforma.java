@@ -40,6 +40,7 @@ public class Plataforma {
 	public Cliente logueoCliente(String usuario, String password) {
 		for(Cliente c : this.clientes) {
 			if((c.getContrasenia().equals(password)) && (c.getUsuario().equals(usuario))) {
+				c.setLogueado(true);
 				return c;
 			}
 		}
