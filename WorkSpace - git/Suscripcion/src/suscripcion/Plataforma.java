@@ -29,21 +29,22 @@ public class Plataforma {
 	 * el usuario ingresado no exista en ningun otro cliente regis_
 	 * trado.
 	 */
-	public void addCliente(Cliente c) {
-		boolean mail = false;
+	public boolean addCliente(Cliente c) {
+		boolean add = true;
 	
 		if(!this.clientes.isEmpty()) {
 			int i = 0;	
-			while((!mail)&&(i<this.clientes.size())) {
+			while((add)&&(i<this.clientes.size())) {
 				if(this.clientes.get(i).getUsuario().equals(c.getUsuario())) {
-					mail = true;
+					add = false;
 				}
 				i++;
 			}
 		}
-		if(!mail) {
+		if(add) {
 			this.clientes.add(c);
 		}
+		return add;
 	}
 	
 	/*Devuelve un Cliente correspondiente al usuario y password dados por parametro.
@@ -73,12 +74,13 @@ public class Plataforma {
 	
 	/*Agrega una Suscripcion a la lista de suscripciones.
 	 */
-	public void addSuscripcion(String origen, String destino) {
+	public Suscripcion addSuscripcion(String origen, String destino) {
 		Suscripcion s = getSuscripcion(origen, destino);
 		if(s == null) {
 			s = new Suscripcion(origen, destino);
 			serviciosSuscripcion.add(s);
 		}
+		return s;
 	}
 	
 	/*Agrega un Viaje a la lista de viajes.
@@ -103,8 +105,9 @@ public class Plataforma {
 		}
 	}
 	
-	
-	/**/
+	/*Devuelve una lista de viajes disponibles, con el origen, destino y fecha solicitados
+	 *por parámetro.
+	 */
 	public ArrayList<Viaje> getViajes(String origen, String destino, LocalDate fechaSalida) {
 		if(this.viajes.isEmpty()) {
 			return null;

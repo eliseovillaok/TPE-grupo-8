@@ -47,7 +47,14 @@ public class Suscripcion {
 	public void notificar() {
 		for (int i = 0; i < suscriptores.size(); i++)
 			System.out.println("Se le notifica a " + suscriptores.get(i) + " que hay un viaje improvisado");
-
+	}
+	
+	public boolean estaSuscripto(Cliente c) {
+		for(String u : this.suscriptores) {
+			if(u.equals(c.getUsuario()))
+				return true;
+		}
+		return false;
 	}
 
 }
