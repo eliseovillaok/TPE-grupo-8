@@ -1,5 +1,6 @@
 package suscripcion;
 
+import java.time.LocalDate;
 import java.util.ArrayList;
 
 /* La clase Plataforma representa al sistema completo en donde quedan
@@ -99,6 +100,22 @@ public class Plataforma {
 				}
 			}
 		
+		}
+	}
+	
+	
+	/**/
+	public ArrayList<Viaje> getViajes(String origen, String destino, LocalDate fechaSalida) {
+		if(this.viajes.isEmpty()) {
+			return null;
+		}else {
+			ArrayList<Viaje> lista = new ArrayList<Viaje>(); 
+			for (Viaje v : this.viajes) {
+				if((v.getOrigen().equals(origen))&&(v.getDestino().equals(destino))&&(v.getFechaSalida().toLocalDate().equals(fechaSalida))) {
+					lista.add(v);
+				}
+			}
+			return lista;
 		}
 	}
 	
