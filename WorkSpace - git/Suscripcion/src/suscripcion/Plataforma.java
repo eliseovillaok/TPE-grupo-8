@@ -3,9 +3,12 @@ package suscripcion;
 import java.time.LocalDate;
 import java.util.ArrayList;
 
-/* La clase Plataforma representa al sistema completo en donde quedan
+/** 
+ * La clase Plataforma representa al sistema completo en donde quedan
  * registrados los clientes, el administrador, los viajes que se ofrecen,
  * las localidades disponibles y las suscripciones para los clientes.
+ * 
+ * @author Nahuel
  */
 public class Plataforma {
 	private ArrayList<Cliente> clientes;
@@ -25,9 +28,13 @@ public class Plataforma {
 		this.viajes = new ArrayList<Viaje>();
 	}
 	
-	/*Agrega un Cliente a la lista de clientes, siempre y cuando
+	/**
+	 * Agrega un Cliente a la lista de clientes, siempre y cuando
 	 * el usuario ingresado no exista en ningun otro cliente regis_
 	 * trado.
+	 * 
+	 * @param c
+	 * @return
 	 */
 	public boolean addCliente(Cliente c) {
 		boolean add = true;
@@ -47,8 +54,13 @@ public class Plataforma {
 		return add;
 	}
 	
-	/*Devuelve un Cliente correspondiente al usuario y password dados por parametro.
-	 *En el caso de no existir se retornara null
+	/**
+	 * 
+	 *Devuelve un Cliente correspondiente al usuario y password dados por parametro. En el caso de no existir se retornara null
+	 *
+	 * @param usuario
+	 * @param password
+	 * @return
 	 */
 	public Cliente logueoCliente(String usuario, String password) {
 		for(Cliente c : this.clientes) {
@@ -60,8 +72,12 @@ public class Plataforma {
 		return null;
 	}
 	
-	/*Busca una Suscripcion a traves de un origen y destino dados por parametro.
-	 *En el caso de no encontrarse retorna null. 
+	/**
+	 * Busca una Suscripcion a traves de un origen y destino dados por parametro.En el caso de no encontrarse retorna null.
+	 * 
+	 * @param origen
+	 * @param destino
+	 * @return
 	 */
 	public Suscripcion getSuscripcion(String origen, String destino) {
 		for(Suscripcion s: this.serviciosSuscripcion) {
@@ -72,7 +88,12 @@ public class Plataforma {
 		return null;
 	}
 	
-	/*Agrega una Suscripcion a la lista de suscripciones.
+	/**
+	 * Agrega una Suscripcion a la lista de suscripciones.
+	 * 
+	 * @param origen
+	 * @param destino
+	 * @return
 	 */
 	public Suscripcion addSuscripcion(String origen, String destino) {
 		Suscripcion s = getSuscripcion(origen, destino);
@@ -83,7 +104,10 @@ public class Plataforma {
 		return s;
 	}
 	
-	/*Agrega un Viaje a la lista de viajes.
+	/**
+	 * Agrega un Viaje a la lista de viajes.
+	 * 
+	 * @param v
 	 */
 	public void addViaje(Viaje v) {
 		if(!this.viajes.contains(v)) {
@@ -91,8 +115,10 @@ public class Plataforma {
 		}
 	}
 	
-	/*Verifica si un Viaje cumple con los requerimientos de una suscripcion 
-	 *y notifica a los suscriptos.
+	/**
+	 * Verifica si un Viaje cumple con los requerimientos de una suscripcion y notifica a los suscriptos.
+	 * 
+	 * @param viaje
 	 */
 	public void chequear(Viaje viaje) {
 		if(viaje.cumpleRequerimiento(DIFERENCIAHORARIA,CANTIDADASIENTOS)) {
@@ -105,8 +131,14 @@ public class Plataforma {
 		}
 	}
 	
-	/*Devuelve una lista de viajes disponibles, con el origen, destino y fecha solicitados
-	 *por parámetro.
+	/**
+	 * Devuelve una lista de viajes disponibles, con el origen, destino y fecha solicitados por parámetro.
+	 *
+	 * 
+	 * @param origen
+	 * @param destino
+	 * @param fechaSalida
+	 * @return
 	 */
 	public ArrayList<Viaje> getViajes(String origen, String destino, LocalDate fechaSalida) {
 		if(this.viajes.isEmpty()) {

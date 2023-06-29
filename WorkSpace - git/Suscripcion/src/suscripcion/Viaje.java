@@ -4,6 +4,14 @@ import java.time.LocalDateTime;
 
 import java.time.temporal.ChronoUnit;
 
+/**
+ * La clase Plataforma representa al sistema completo en donde quedan
+ * registrados los clientes, el administrador, los viajes que se ofrecen,
+ * las localidades disponibles y las suscripciones para los clientes.
+ * 
+ * @author Lucas
+ *
+ */
 public class Viaje {
 	private String origen;
 	private String destino;
@@ -39,6 +47,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Devuelve el origen del viaje seleccionado.
 	 * @return the origen
 	 */
 	public String getOrigen() {
@@ -46,6 +55,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Cambia el origen del viaje
 	 * @param origen the origen to set
 	 */
 	public void setOrigen(String origen) {
@@ -53,6 +63,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Devuelve el destino del viaje seleccionado.
 	 * @return the destino
 	 */
 	public String getDestino() {
@@ -60,6 +71,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Cambia el destino del viaje.
 	 * @param destino the destino to set
 	 */
 	public void setDestino(String destino) {
@@ -67,6 +79,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Devuelve la fecha de salida del viaje seleccionado.
 	 * @return the fechaSalida
 	 */
 	public LocalDateTime getFechaSalida() {
@@ -74,6 +87,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Cambia la fecha de salida del viaje.
 	 * @param fechaSalida the fechaSalida to set
 	 */
 	public void setFechaSalida(LocalDateTime fechaSalida) {
@@ -81,6 +95,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Devuelve la fecha de llegada del viaje seleccionado.
 	 * @return the fechaLlegada
 	 */
 	public LocalDateTime getFechaLlegada() {
@@ -88,6 +103,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Cambia la fecha de llegada del viaje.
 	 * @param fechaLlegada the fechaLlegada to set
 	 */
 	public void setFechaLlegada(LocalDateTime fechaLlegada) {
@@ -95,6 +111,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Devuelve la empresa que será responsable del viaje.
 	 * @return the empresa
 	 */
 	public String getEmpresa() {
@@ -102,6 +119,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Cambia la empresa responsable del viaje.
 	 * @param empresa the empresa to set
 	 */
 	public void setEmpresa(String empresa) {
@@ -109,6 +127,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Devuelve el tiempo estimado de duración del viaje.
 	 * @return the tiempoEstimado
 	 */
 	public int getTiempoEstimado() {
@@ -116,6 +135,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Cambia el tiempo estimado de duración del viaje.
 	 * @param tiempoEstimado the tiempoEstimado to set
 	 */
 	public void setTiempoEstimado(int tiempoEstimado) {
@@ -123,6 +143,7 @@ public class Viaje {
 	}
 
 	/**
+	 * Devuelve la cantidad de asientos disponibles del viaje seleccionado.
 	 * @return the asientosDisponibles
 	 */
 	public int getAsientosDisponibles() {
@@ -130,13 +151,14 @@ public class Viaje {
 	}
 
 	/**
-	 * 
+	 * Ocupa un asiento del viaje
 	 */
 	public void ocuparAsiento() {
 		this.asientosDisponibles = this.asientosDisponibles - 1;
 	}
 
 	/**
+	 * Devuelve el precio del viaje seleccionado.
 	 * @return the precio
 	 */
 	public int getPrecio() {
@@ -144,12 +166,20 @@ public class Viaje {
 	}
 
 	/**
+	 * Cambia el precio del viaje.
 	 * @param precio the precio to set
 	 */
 	public void setPrecio(int precio) {
 		this.precio = precio;
 	}
 
+	/**
+	 * Verifica si el viaje cumple los requerimientos para notificar el viaje improvisado. Si el viaje cumple con la diferencia horaria y la cantidad de asientos dada devuelve true.
+	 * 
+	 * @param diferenciaHoraria
+	 * @param cantidadAsientos
+	 * @return
+	 */
 	public boolean cumpleRequerimiento(long diferenciaHoraria, int cantidadAsientos) {
 		LocalDateTime hoy = LocalDateTime.now();
 		long horas = ChronoUnit.HOURS.between(hoy, this.fechaSalida);
@@ -161,6 +191,10 @@ public class Viaje {
 		}
 	}
 
+	/**
+	 * Verifica si dos viajes son iguales comparando su origen y su destino.
+	 * True==Los viajes son iguales; False==Los viajes no son iguales.
+	 */
 	@Override
 	public boolean equals(Object o) {
 		Viaje v = (Viaje) o;

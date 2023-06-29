@@ -38,6 +38,8 @@ public class main {
 		p1.addSuscripcion("Tandil", "Necochea");
 		p1.addSuscripcion("Necochea", "Mar del Plata");
 		
+		Cliente a = p1.logueoCliente("adri@gmail.com", "cebaMates");
+		a.suscribirse(p1.getSuscripcion("Necochea", "Mar del Plata"));
 		/*
 		// Testing 1
 		Cliente a = p1.logueoCliente("adri@gmail.com", "cebaMates");
