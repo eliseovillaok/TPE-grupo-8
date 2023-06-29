@@ -165,7 +165,8 @@ public class Viaje {
 	public boolean equals(Object o) {
 		Viaje v = (Viaje) o;
 		// Para una proxima version se debe comparar horarios y empresa.
-		return (v.getOrigen().equals(getOrigen())) && (v.getDestino().equals(getDestino()));
+		return (v.getOrigen().equals(getOrigen())) && (v.getDestino().equals(getDestino())&&(v.getFechaSalida().equals(getFechaSalida()))&&
+				(v.getFechaLlegada().equals(getFechaLlegada())&&(v.getEmpresa().equals(getEmpresa()))));
 	}
 
 }
