@@ -178,7 +178,7 @@ public class Viaje {
 	 * 
 	 * @param diferenciaHoraria
 	 * @param cantidadAsientos
-	 * @return
+	 * @return boolean
 	 */
 	public boolean cumpleRequerimiento(long diferenciaHoraria, int cantidadAsientos) {
 		LocalDateTime hoy = LocalDateTime.now();
@@ -194,6 +194,8 @@ public class Viaje {
 	/**
 	 * Verifica si dos viajes son iguales comparando su origen y su destino.
 	 * True==Los viajes son iguales; False==Los viajes no son iguales.
+	 * 
+	 * @return boolean
 	 */
 	@Override
 	public boolean equals(Object o) {
