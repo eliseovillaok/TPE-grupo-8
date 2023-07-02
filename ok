@@ -1,0 +1,344 @@
+[33mcommit 897554fa3dfd517a9ee8dc6a7f4435c49686f683[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Adrielram <adriel_ram@hotmail.com>
+Date:   Fri Jun 30 11:16:24 2023 -0300
+
+    Diagrama de secuencia updated
+
+[33mcommit 3b2201879ff43bdd6a8420e007c441fe511799ff[m
+Author: Nahuel7978 <roman.n7978@gmail.com>
+Date:   Fri Jun 30 11:14:51 2023 -0300
+
+    Diagramas de estado actualizados. Documentacion de Cliente y Viaje
+
+[33mcommit 4a66a128d3da7d0e71d9a21aac31c602118fc3e6[m
+Author: Adrielram <adriel_ram@hotmail.com>
+Date:   Thu Jun 29 17:41:24 2023 -0300
+
+    Diagrama de Secuencia
+
+[33mcommit 93a0ae1c03c990b8274a8e7b104df98fbbc74a62[m
+Author: Nahuel7978 <roman.n7978@gmail.com>
+Date:   Thu Jun 29 12:12:02 2023 -0300
+
+    documentacion de viaje
+
+[33mcommit 44a73e3be94de0f9ea79b13db685dee053b40dff[m
+Author: Nahuel7978 <roman.n7978@gmail.com>
+Date:   Thu Jun 29 10:58:32 2023 -0300
+
+    menu corregido, diagramas corregidos
+
+[33mcommit cbe0175b07d6c939d9bb06f0b14907ab1bbe6723[m
+Merge: ece8b5c a6f58e8
+Author: Nahuel7978 <roman.n7978@gmail.com>
+Date:   Wed Jun 28 17:02:57 2023 -0300
+
+    Merge branch 'main' of https://github.com/eliseovillaok/TPE-grupo-8
+
+[33mcommit ece8b5cba43e81f8de99bf26a39f811915aa9e57[m
+Author: Nahuel7978 <roman.n7978@gmail.com>
+Date:   Wed Jun 28 17:02:12 2023 -0300
+
+    Modificacion en plataforma, cliente y main. Creacion del menu(basico)
+
+[33mcommit a6f58e8e8d2f23ba6ca2fa465b14212db1fa91e7[m
+Author: Adrielram <adriel_ram@hotmail.com>
+Date:   Wed Jun 28 17:00:20 2023 -0300
+
+    deployment
+
+[33mcommit e9b241205a7219977c79b99df096c5ed495cbf4b[m
+Merge: a997ed2 8519199
+Author: Nahuel7978 <roman.n7978@gmail.com>
+Date:   Wed Jun 28 14:37:00 2023 -0300
+
+    getViajes, devuelve lista de viajes
+
+[33mcommit a997ed2ba992a5c2fefb04e55668020148cf58c3[m
+Author: Nahuel7978 <roman.n7978@gmail.com>
+Date:   Wed Jun 28 14:34:34 2023 -0300
+
+    getViajes, devuelve lista de viajes
+
+[33mcommit 8519199d30d83eb54337de589204e01f22c88d56[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Tue Jun 27 23:02:23 2023 -0300
+
+    Documentacion JavaDoc (Clase Persona).
+
+[33mcommit 604e24f6613a51079786f6b672a25683d04ec557[m
+Author: Nahuel7978 <roman.n7978@gmail.com>
+Date:   Tue Jun 27 11:39:13 2023 -0300
+
+    Documentacion de plataforma
+
+[33mcommit 684b7a949eb19bddbe72df7d4d0a8ce3f3c17599[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon Jun 26 13:22:43 2023 -0300
+
+    Sprint retrospective 1
+
+[33mcommit 3db54c7de5a57008302e3c173133fbb787f841e3[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon Jun 26 13:21:28 2023 -0300
+
+    Scrum Board Sprint 2
+
+[33mcommit c80d7afc34a05d9f94c1bb08e42551f2ce9f73f3[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon Jun 26 13:14:40 2023 -0300
+
+    Cambios 26/06/2023
+
+[33mcommit 48b146e8520f981e328a0abe66f614bee10afa38[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Sun Jun 25 20:55:38 2023 -0300
+
+    Borrado DCEA viejo
+
+[33mcommit 00dc3f2fda8a4502689905697e5af8cb95f3fc08[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Sun Jun 25 20:54:19 2023 -0300
+
+    CAMBIOS DC 25/06/2023
+
+[33mcommit 3e34f33dea9198401b3db4fade75226c2fdf8378[m
+Author: Nahuel <roman.n7978@gmail.com>
+Date:   Sun Jun 25 18:10:12 2023 -0300
+
+    Cambios 25/06
+
+[33mcommit ab212b77658c01fd6c2f9d2c9c82d7b090f3ecf7[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Sun Jun 4 20:22:25 2023 -0300
+
+    Llave del main
+
+[33mcommit f6c33cc957ccef15f641e02537129f8dfbcbcdd5[m
+Merge: 35f6e59 968a3b2
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Sun Jun 4 20:03:20 2023 -0300
+
+    cambios
+
+[33mcommit 968a3b29e94737ac95d2a2fa4ae4c418ee22da67[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Sun Jun 4 19:59:54 2023 -0300
+
+    ultimos cambios
+
+[33mcommit 35f6e59d719704a70697c5e6be15cf50c134837c[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Sun Jun 4 19:57:51 2023 -0300
+
+    cambios
+
+[33mcommit 3ef06e30c4e61d697f77322be174df46a38fb812[m[33m ([m[1;31morigin/devSuscripcion[m[33m)[m
+Author: Eliseo <98825755+eliseovillaok@users.noreply.github.com>
+Date:   Sun Jun 4 19:36:20 2023 -0300
+
+    Delete WorkSpace - git/Sucripcion directory
+
+[33mcommit 4d50a24ce998dc1e6d26a886a869b9660d3d5ff2[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Sun Jun 4 19:33:53 2023 -0300
+
+    Main final
+
+[33mcommit 3d5a8aac0c9938f3be5662f3a0dfaa04b232df95[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Sun Jun 4 18:49:21 2023 -0300
+
+    Ultimos cambios
+
+[33mcommit ecdd78a1700e9751545e13ff5d488b4196848f5c[m
+Merge: 64eea82 cb9a964
+Author: Nahuel <roman.n7978@gmail.com>
+Date:   Sun Jun 4 18:26:53 2023 -0300
+
+    merge de plataforma
+
+[33mcommit 64eea82db0e626159bfd56dad613a4897289c027[m
+Author: Nahuel <roman.n7978@gmail.com>
+Date:   Sun Jun 4 18:14:46 2023 -0300
+
+    comentarios borrados
+
+[33mcommit ff67f910f65728fc4859eeb1cf924c18ffc5989d[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Sat Jun 3 21:36:06 2023 -0300
+
+    Actualizacion de metodos
+
+[33mcommit cb9a9649b439eac2750c8d2841392d75effd9ed4[m
+Author: Usuario <Usuario@192.168.10.5>
+Date:   Sat Jun 3 12:58:50 2023 -0300
+
+    Clase plataforma v1
+
+[33mcommit f1b821afa3ca3208c88e34469f6a34da21397df4[m
+Author: Mateo <matetornikato@gmail.com>
+Date:   Fri Jun 2 17:10:38 2023 -0300
+
+    Clase suscripcion y metodos
+
+[33mcommit a7093aa3fa29956ddaa62f1119412dff9377faa4[m
+Author: Mateo <matetornikato@gmail.com>
+Date:   Fri Jun 2 16:23:01 2023 -0300
+
+    clase suscripcion
+
+[33mcommit 740cf2eb02b3719e02e447a770d057498f7191f6[m
+Author: Adrielram <112234936+Adrielram@users.noreply.github.com>
+Date:   Fri Jun 2 14:31:06 2023 -0300
+
+    Update PASOS.txt
+    
+    2-6
+
+[33mcommit 1ec62f7ff0c8c7de2c78412a33d27b799cca5606[m
+Author: Adrielram <adriel_ram@hotmail.com>
+Date:   Fri Jun 2 14:26:42 2023 -0300
+
+    Clase admin y clase cliente
+
+[33mcommit 72597988582a571834dae15eebd375e1efa384ca[m
+Merge: 99012cc 5a71011
+Author: Adrielram <adriel_ram@hotmail.com>
+Date:   Fri Jun 2 14:08:29 2023 -0300
+
+    prueba
+
+[33mcommit 99012cca0ff03b73fc5aed8c63321fe909246c65[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Thu Jun 1 21:04:28 2023 -0300
+
+    clase-persona
+
+[33mcommit d83711fbe1d2a1ae86c112e19460a648d8d86940[m
+Merge: eefcb00 3c8052f
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Thu Jun 1 21:02:42 2023 -0300
+
+    clase-persona
+
+[33mcommit 3c8052fb8ccd1a824878ecd09fd0a97fdfe8d585[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Thu Jun 1 21:00:03 2023 -0300
+
+    Creacion de clase abstracta persona
+
+[33mcommit eefcb00255c702fa659fdec0a7be0c44c77096b2[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Thu Jun 1 20:49:16 2023 -0300
+
+    main--diagrama_de_clases_de_estado_actual
+
+[33mcommit a887eee2960e463887753f9a88f78e50f07f411a[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Sat May 20 19:13:54 2023 -0300
+
+    Diagrama clases de alto nivel
+
+[33mcommit c3cb0abb9749578172b6c806d4d9e75a51e6f1f1[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 12:37:54 2023 -0300
+
+    Pasos para utilizar git correctamente de manera colaborativa
+
+[33mcommit ec8c10c3d951cd51b9524a26fa2d18ab0836ca3f[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 12:13:21 2023 -0300
+
+    RAMA PRINCIPAL
+
+[33mcommit 2b41b1380e9f8ceb3af1a20e34cd9304cf4581b6[m[33m ([m[1;31morigin/test[m[33m)[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 12:09:06 2023 -0300
+
+    RAMA TESTEO
+
+[33mcommit 4712b561093fee5596c337a4b69850bc73bbf0c2[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 12:08:16 2023 -0300
+
+    Rama de testeo
+
+[33mcommit 6b06d07a175d359a5b4bb901ed7908ac07cc97ec[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 12:00:15 2023 -0300
+
+    Iniciando el desarrollo
+
+[33mcommit 5a710117dd670d859d9446e4b95fe92dbc3405a4[m[33m ([m[1;31morigin/bugFix[m[33m)[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 11:54:23 2023 -0300
+
+    Rama bug fix
+
+[33mcommit 42c7873a571a270e2e07afc04b2445ed0a6cd124[m
+Author: Usuario <Usuario@192.168.10.4>
+Date:   Mon May 15 11:44:11 2023 -0300
+
+    Edicion main "Suscripcion"
+
+[33mcommit 629d73a90429543c7c80965bab25be13d4747168[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 11:28:41 2023 -0300
+
+    Comentario main
+
+[33mcommit 8cd7f096a319a833556e8754c1db2fb622105abf[m
+Merge: c817f54 a3a1ea2
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 11:23:43 2023 -0300
+
+    Merge branch 'main' of https://github.com/eliseovillaok/TPE-grupo-8.git into main
+
+[33mcommit a3a1ea267fc4fb0ac03f4c7c30fa4581197cac2b[m
+Author: Adrielram <adriel_ram@hotmail.com>
+Date:   Mon May 15 11:17:40 2023 -0300
+
+    commitadricon main
+
+[33mcommit c817f54136991091ade627e9163283979179fdc7[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 10:56:19 2023 -0300
+
+    Finalizacion de la prueba
+
+[33mcommit 3dc6a693833e7cd75474098d88c1e72586190f6e[m
+Author: Eliseo <98825755+eliseovillaok@users.noreply.github.com>
+Date:   Mon May 15 10:54:00 2023 -0300
+
+    Borre la prueba
+
+[33mcommit 21775eb8834c3d6c2d2d963f610649e5683e1495[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 10:50:51 2023 -0300
+
+    tercer commit
+
+[33mcommit eca175a4c392a3d56a58cf4e012941320f08a561[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 10:46:51 2023 -0300
+
+    SEGUNDA PRUEBA DE COMMIT
+
+[33mcommit 18ee9a5f47c6d48d8702eceb4e49c4cb6779d0bf[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 10:34:28 2023 -0300
+
+    Subiendo proyecto inicial
+
+[33mcommit 24ebdf8bd23eacbb3176204e69a16f654c8268f5[m
+Author: Eliseo <eliseovilla10@gmail.com>
+Date:   Mon May 15 10:17:00 2023 -0300
+
+    Primer commit de prueba
+
+[33mcommit 10ddc11db0849e03405aa71cc08817cf5c7b91f0[m
+Author: Eliseo <98825755+eliseovillaok@users.noreply.github.com>
+Date:   Mon May 15 09:23:41 2023 -0300
+
+    Initial commit
